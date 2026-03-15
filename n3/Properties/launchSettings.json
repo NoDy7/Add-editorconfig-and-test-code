@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "Default": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "DebugProfile": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DEBUG_MODE": "true",
+        "LOG_LEVEL": "Verbose"
+      }
+    },
+    "ProfileWithArgs": {
+      "commandName": "Project",
+      "commandLineArgs": "--input data.txt --verbose"
+    }
+  }
+}
